@@ -11,3 +11,7 @@ AOC_24 in python.
   - [x] part_1
   - [x] part_2
   - [Help/Research](https://chatgpt.com/share/674d9f98-30b0-8004-ad96-9ce3bbbf1de4)
+- Day_3:
+  - [x] part_1
+  - [x] part_2
+  - [Help/Research](https://chatgpt.com/share/674ee832-6c94-8004-ab64-141471964805)

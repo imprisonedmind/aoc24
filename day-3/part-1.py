@@ -2,11 +2,10 @@ import re
 
 
 def main():
-    # data_string = "xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))"
     with open('data.txt', 'r') as file:
         data_string = file.read()
         wanted_start = "mul("
-        mul_start_index = []
+        mul_start = []
         mul_numbers = []
         total = 0
 
@@ -14,10 +13,10 @@ def main():
         while i < len(data_string):
             if data_string[i:i + 4] == wanted_start:
                 x = data_string.find(wanted_start, i)
-                mul_start_index.append(x)
+                mul_start.append(x)
             i += 1
 
-        for mul in mul_start_index:
+        for mul in mul_start:
             curr_string = data_string[mul:mul + 12]
             if ")" in curr_string:
                 x = re.split(r"[(,)]", curr_string)
