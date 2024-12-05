@@ -20,3 +20,8 @@ AOC_24 in python.
   - [x] part_2
   - [Help/Research](https://chatgpt.com/share/675172df-7e84-8004-aac5-6665add99313)
   - [Help/Research](https://chatgpt.com/share/675172f3-4240-8004-832d-25007116128a)
+
+- Day_5:
+  - [x] part_1
+  - [ ] part_2
+  - [Help/Research](https://chatgpt.com/share/675213c3-0f58-8004-8f4c-db22c0acdda8)
